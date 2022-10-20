@@ -1,0 +1,32 @@
+### GET
+
+http://localhost:3000/cursos
+
+
+### GET COM FILTRO
+
+http://localhost:3000/cursos/1
+
+
+
+### POST
+
+POST http://localhost:3000/cursos HTTP/1.1
+content-type: application/json
+
+{ "nome": "Java" }
+
+
+
+### PUT
+
+PUT http://localhost:3000/cursos/3 HTTP/1.1
+content-type: application/json
+
+{ "nome": "Python" }
+
+
+### DELETE
+
+DELETE http://localhost:3000/cursos/4 HTTP/1.1
+content-type: application/json
